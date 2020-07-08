@@ -7,7 +7,7 @@ let a = 3;
 let b = 4;
 
 let resultstr = "";
-let result = "";
+let substring = "";
 
 let substr = new Array(str.length);
 for (let i =0; i<substr.length; i++) {
@@ -18,7 +18,7 @@ for (let i =0; i<substr.length; i++) {
 
 }
 for (let j=0; j<b; j++) {
-    result+= resultstr[j];
+    substring += resultstr[j];
 
 }
-console.log(result);
+console.log(substring);
